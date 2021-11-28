@@ -633,7 +633,7 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: scale(1) rotate(0) translate(-50%, -50%);
+	transform: scale(1) rotateX(0) translate(-50%, -50%);
 	transition-property: background-color;
 	
 	
@@ -661,7 +661,8 @@ img {
 	pointer-events: none;
 }
 .backdrop.is-hidden .modal {
-	transform: scale(0.2) rotate(-120deg);
-	background-color: rgb(19, 135, 230);
+	transform: scale(0.5) rotateX(-60deg);
+	background-color: rgba(255, 255, 255, 1);
+	
 	
 }
